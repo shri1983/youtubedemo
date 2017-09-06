@@ -1,0 +1,15 @@
+<p>
+  home works!
+</p>
+{{obj.name}}
+
+<ul>
+
+  <li *ngFor= "let i of arr">{{i}}</li>
+</ul>
+
+<p *ngIf = "flag; else FirstTemplate"> Hello</p>
+
+<ng-template #FirstTemplate> This is my first Template</ng-template>
+
+<p *ngIf = "myName== 'shri'"> True</p>
